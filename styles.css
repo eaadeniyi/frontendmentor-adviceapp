@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+body{
+   background-color: hsl(217, 12%, 87%);
+}
+
+.quote{
+    display: flex;
+    margin: 10%;
+}
+
+.card{
+    max-width: 450px;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+   background-color:  hsl(240, 10%, 10%);
+   padding: 3%;
+   border-radius: 10px;
+   color: white;
+   box-shadow: 0 4px 8px 0 rgba(4, 3, 3, 0.982);
+   transition: 0.3s; 
+   text-align: center;
+   line-height: 2.5em;
+}
+
+@media screen and (max-width: 375px) {
+    .card{
+        max-width: 100%;
+    }
+    
+}
+
+.container p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h4{
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: hsl(154, 90%, 71%);
+    padding: 2% 0;
+}
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+    font-weight: 700;
+    color:hsl(228, 24%, 4%);
+}
+    
+.attribution a {
+    color: hsl(217, 72%, 37%); 
+}
+
+.advise {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: hsl(150, 100%, 66%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    border: none;
+}
+
+.button:hover {
+    border-radius: 70%;
+    background-color: hsla(166, 97%, 76%, 0.94);
+    position: relative;
+    bottom: 10px;
+}
+
+/* #dice{
+    position: absolute;
+  bottom: 1px;
+  
+} */
